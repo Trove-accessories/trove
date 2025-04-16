@@ -1,37 +1,167 @@
-# Compiled source #
-###################
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.so
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trove Accessories</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff8f6;
+      color: #333;
+    }
+    header {
+      background-color: #fff;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+      color: #e07a5f;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 10px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #555;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    footer {
+      background-color: #f4f4f4;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+    .product-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .product {
+      background-color: #fff;
+      padding: 20px;
+      border: 1px solid #eee;
+      border-radius: 10px;
+      width: 200px;
+    }
+    .product h3 {
+      margin: 10px 0;
+      color: #e07a5f;
+    }
+    .buy-button {
+      background-color: #e07a5f;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+    .buy-button:hover {
+      background-color: #cf6951;
+    }
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    input, textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1em;
+    }
+    button[type="submit"] {
+      background-color: #e07a5f;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button[type="submit"]:hover {
+      background-color: #cf6951;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Trove Accessories</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+      <a href="#policies">Policies</a>
+    </nav>
+  </header>  <section id="about">
+    <h2>About Us</h2>
+    <p>We make cute and affordable accessories like bracelets, scrunchies, and more for teens. Handmade with love, Trove Accessories brings style without breaking your wallet.</p>
+  </section>  <section id="products">
+    <h2>Our Products</h2>
+    <div class="product-section">
+      <div class="product">
+        <h3>Bracelets</h3>
+        <p>Colorful, beaded, and stylish bracelets.</p>
+        <button class="buy-button">Add to Cart</button>
+      </div>
+      <div class="product">
+        <h3>Scrunchies</h3>
+        <p>Soft and trendy scrunchies for all looks.</p>
+        <button class="buy-button">Add to Cart</button>
+      </div>
+      <div class="product">
+        <h3>Necklaces</h3>
+        <p>Dainty and adorable necklaces you'll love.</p>
+        <button class="buy-button">Add to Cart</button>
+      </div>
+      <div class="product">
+        <h3>Hair Clips</h3>
+        <p>Elegant and cute hair clips for every mood.</p>
+        <button class="buy-button">Add to Cart</button>
+      </div>
+      <div class="product">
+        <h3>Combos</h3>
+        <p>Affordable combos of your favs.</p>
+        <button class="buy-button">Add to Cart</button>
+      </div>
+    </div>
+  </section>  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Follow us on Instagram: <a href="https://instagram.com/trove__accessories">@trove__accessories</a></p>
+    <form>
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>  <section id="policies">
+    <h2>Our Policies</h2>
+    <h3>Privacy Policy</h3>
+    <p>We collect customer names and addresses only for delivery. We never share your info with others.</p><h3>Shipping Policy</h3>
+<p>We ship across India. Orders are processed in 2–4 days. Tracking info will be provided.</p>
 
-# Packages #
-############
-# it's better to unpack these files and commit the raw source
-# git has its own built in compression methods
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
+<h3>Returns & Refunds</h3>
+<p>No returns or refunds. If your item is damaged, contact us within 48 hours.</p>
 
-# Logs and databases #
-######################
-*.log
-*.sql
-*.sqlite
+<h3>Terms & Conditions</h3>
+<p>By ordering from Trove Accessories, you agree to our policies. All content on this site is our property.</p>
 
-# OS generated files #
-######################
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+  </section>  <footer>
+    <p>&copy; 2025 Trove Accessories. All rights reserved.</p>
+  </footer>
+</body>
+</html>
